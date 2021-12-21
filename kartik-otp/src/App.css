@@ -1,0 +1,86 @@
+.AppMain {
+}
+.App {
+  text-align: center;
+  width: 30%;
+
+  margin: 10rem auto;
+  /* display: flex; */
+}
+img {
+  height: 100px;
+  margin-bottom: 2rem;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.otpInput {
+  border: none;
+  display: inline-block;
+  width: 20%;
+  border-bottom: 1px solid black;
+}
+.otpInput:focus {
+  /* border: none; */
+  outline: none;
+}
+.otpContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* box-shadow: #282c34; */
+}
+.primary {
+  height: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 3px;
+  background: #055646;
+  transition: all 0.4s;
+  border: none;
+  margin-top: 2rem;
+  width: 100%;
+}
+.closeButton {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
